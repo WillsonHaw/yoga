@@ -10,7 +10,7 @@
     "url": "git@github.com:facebook/yoga.git"
   },
   "type": "module",
-  "main": "./src/index.ts",
+  "main": "./src/index.js",
   "files": [
     "binaries/**",
     "src/**"
@@ -44,5 +44,6 @@
     "just-scripts": "^2.1.0",
     "ninja-binaries": "^1.11.1",
     "which": "^3.0.0"
-  }
+  },
+  "typings": "./src/index.d.ts"
 }
